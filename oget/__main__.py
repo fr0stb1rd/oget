@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Oget - Ollama Model Direct Downloader & Installer
+https://github.com/fr0stb1rd/oget
 ---------------------------------------------------
 Get direct download links for Ollama models and install
 locally downloaded model files (manifest + blobs).
