@@ -5,7 +5,7 @@
 
 **Ollama Model Direct Downloader & Installer**
 
-Get direct download links for Ollama models and install locally downloaded models — no internet required at install time.
+Get direct download links for Ollama models and install locally downloaded models — no internet required at install time. \| Blog: [English](https://fr0stb1rd.gitlab.io/posts/oget-ollama-model-downloader/) \| [Türkçe](https://fr0stb1rd.gitlab.io/posts/oget-ollama-model-indirici/)
 
 ## Why?
 
