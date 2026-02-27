@@ -16,8 +16,25 @@ Get direct download links for Ollama models and install locally downloaded model
 
 ## Install
 
+### via pip (all platforms)
+
 ```bash
 pip install oget
+```
+
+### via AUR (Arch Linux)
+
+```bash
+# Using yay
+yay -S oget
+
+# Using paru
+paru -S oget
+
+# Manual
+git clone https://aur.archlinux.org/oget.git
+cd oget
+makepkg -si
 ```
 
 ## Usage
