@@ -277,10 +277,10 @@ def cmd_install(args):
 
 def print_main_help():
     print(f"""
-{Colors.BOLD}{Colors.HEADER}╔══════════════════════════════════════════╗
-║         Oget  🦙  v1.0                ║
-║   Ollama Model Direct Downloader         ║
-╚══════════════════════════════════════════╝{Colors.ENDC}
+{Colors.BOLD}{Colors.HEADER}╔════════════════════════════════════╗
+║         Oget  🦙  v1.0.2           ║
+║   Ollama Model Direct Downloader   ║
+╚════════════════════════════════════╝{Colors.ENDC}
 
 {Colors.BOLD}USAGE{Colors.ENDC}
   oget <command> [options]
