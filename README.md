@@ -43,14 +43,28 @@ makepkg -si
 
 ```bash
 oget get gemma2:2b
-oget get deepseek-r1:7b
-oget get huihui_ai/deepseek-r1-abliterated:8b
+# oget get deepseek-r1:7b
+# oget get huihui_ai/deepseek-r1-abliterated:8b
 ```
 
-Output includes:
-- 📄 Manifest download link
-- 📦 Direct blob download URLs with file sizes
-- Ready-to-use `curl` commands
+**Example Output:**
+
+```text
+ℹ Fetching direct download link for model: gemma2:2b
+
+Curl command to download the manifest (run in your manifest folder):
+curl -L "https://registry.ollama.ai/v2/library/gemma2/manifests/2b" -o "manifest"
+
+Download links for layers:
+1 - [1.5 GB] https://registry.ollama.ai/v2/library/gemma2/blobs/sha256:74627347...
+2 - [358 B]  https://registry.ollama.ai/v2/library/gemma2/blobs/sha256:e0a42594...
+...
+
+Curl command to download all blobs (run in your blobs folder):
+curl -L "https://registry.ollama.ai/v2/library/gemma2/blobs/sha256:74627347..." -o "sha256-74627347..."
+curl -L "https://registry.ollama.ai/v2/library/gemma2/blobs/sha256:e0a42594..." -o "sha256-e0a42594..."
+...
+```
 
 ### Step 2 — Download the files
 
